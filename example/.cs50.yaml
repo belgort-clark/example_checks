@@ -2,9 +2,10 @@ check50:
   checks:
     hello world:
     - run: python3 hello.py
+      stdout: Hello, worlds!
       stdin: 
-        - "bruce"
-        - "joe"
+        - bruce
+        - joe
       stdout: 
-        - "bruce"
-        - "joe"
+        - bruce"
+        - joe
