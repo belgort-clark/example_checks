@@ -3,6 +3,7 @@ check50:
     hello world:
     - run: python3 hello.py
       stdout: "Hello, world!"
+      exit: 0
     - run: python3 hello.py # run python3 hello.py
       stdin: 
         - "bruce"
