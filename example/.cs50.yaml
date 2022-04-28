@@ -6,5 +6,5 @@ check50:
       stdin: "bruce"
       stdout: "bruce"
       stdin: "joe"
-      stdout: "joe"
+      stdout: "joes"
       exit: 0
