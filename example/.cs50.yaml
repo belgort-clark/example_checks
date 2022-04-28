@@ -6,5 +6,5 @@ check50:
         - "bruce"
         - "joe"
       stdout: 
-        - "bruce"
-        - "joe"
+        - "bruces"
+        - "joes"
