@@ -9,4 +9,3 @@ check50:
       stdout: 
         - "bruce"
         - "joe"
-      exit: 0
