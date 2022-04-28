@@ -3,8 +3,8 @@ check50:
     hello world:
     - run: python3 hello.py
       stdin: 
-        - "bruce"
-        - "joe"
+        - "bruce\n"
+        - "joe\n"
       stdout: 
-        - "bruces"
+        - "bruce"
         - "joes"
