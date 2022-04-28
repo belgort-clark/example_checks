@@ -3,8 +3,10 @@ check50:
     hello world:
     - run: python3 hello.py # run python3 hello.py
       stdout: Hello, world! # expect Hello, world! in stdout
-      stdin: "bruce"
-      stdout: "bruce"
-      stdin: "joe"
-      stdout: "joes"
+      stdin: 
+        - "bruce"
+        - "joe"
+      stdout: 
+        - "bruce"
+        - "joe"
       exit: 0
