@@ -4,7 +4,6 @@ check50:
     - run: python3 hello.py # run python3 hello.py
       stdout: Hello, world! # expect Hello, world! in stdout
       exit: 0 # expect program to exit with exitcode 0
-    bar:
     - run: python3 hello.py
       stdin: "bruce"
       stdout: "bruce"
