@@ -5,6 +5,8 @@ check50:
       stdin: 
         - joe
         - tom
+        - sean
       stdout: 
         - joe
         - tom
+        - seans
