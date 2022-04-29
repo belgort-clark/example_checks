@@ -9,4 +9,4 @@ check50:
       stdout: 
         - joe
         - tom
-        - seans
+        - sean
