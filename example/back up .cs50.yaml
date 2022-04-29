@@ -1,8 +1,2 @@
 check50:
-  checks:
-    input_tests:
-    - run: python3 hello.py
-      stdin: joe
-      stdout: joe
-      stdin: tom
-      stdout: tom
+  checks: __init__.py
