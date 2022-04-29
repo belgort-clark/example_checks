@@ -4,5 +4,7 @@ check50:
     - run: python3 hello.py
       stdin: 
         - joe
+        - tom
       stdout: 
         - joe
+        - tom
