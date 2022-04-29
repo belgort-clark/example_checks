@@ -3,6 +3,7 @@ check50:
     input_tests:
     - run: python3 hello.py
       stdout: Hello, worlds!
+      stdout: Yay sports!
       stdin: joe
       stdout: joe
       stdin: tom
