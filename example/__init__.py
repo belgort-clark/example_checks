@@ -14,3 +14,4 @@ def prints_hello():
 def gets_input():
   """gets the name fred"""
   check50.run("python3 hello.py").stdin("Fred").stdout("Fred").exit(0)
+  check50.run("python3 hello.py").stdin("Jim").stdout("James").exit(0)
