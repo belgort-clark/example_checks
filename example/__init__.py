@@ -12,6 +12,6 @@ def prints_hello():
 
 @check50.check(exists)
 def gets_input():
-  """gets the names Fred and Jim and then prints them"""
-  check50.run("python3 hello.py").stdin("Fred").stdout("Fred").exit(0)
+  """Inputs the names Fred and Jim and then prints them"""
+  check50.run("python3 hello.py").stdin("Fred").stdout("Fred")
   check50.run("python3 hello.py").stdin("Jim").stdout("Jim").exit(0)
