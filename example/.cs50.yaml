@@ -9,4 +9,4 @@ check50:
       stdin:
         - tom
       stdout:
-        - toms
+        - tom
