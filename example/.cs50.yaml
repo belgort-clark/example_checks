@@ -2,7 +2,7 @@ check50:
   checks:
     input_tests:
     - run: python3 hello.py
-      stdout: Hello, world!
+      stdout: Hello, worlds!
       stdin: joe
       stdout: joe
       stdin: tom
