@@ -7,8 +7,8 @@ def exists(): # the name of the check
   
 @check50.check(exists) # only run this check if the exists check has passed
 def prints_hello():
-  """Prints "hello, world!" """
-  check50.run("python3 hello.py").stdout("[Hh]ello, world!?\n", regex=True)
+  """Prints "Hello, World!" """
+  check50.run("python3 hello.py").stdout("[Hh]ello, [Ww]orld!?\n", regex=True)
 
 @check50.check(exists)
 def gets_input():
