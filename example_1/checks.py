@@ -1,3 +1,7 @@
+"""
+check50 belgort-clark/example_checks/main/example_1 --local
+"""
+
 import check50 # import the check50 module
 
 @check50.check() # tag the function below as check50 check
